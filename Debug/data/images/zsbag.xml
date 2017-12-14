@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="zsbag" Imagefile="zsbag.png" NativeHorzRes="512" NativeVertRes="512" >
+
+	<!--金币奖励-->
+	<Image Name="GoldBag" XPos="0" YPos="0" Width="259" Height="245" />	
+	<Image Name="GoldNum0" XPos="0" YPos="246" Width="51" Height="60" />
+	<Image Name="GoldNum1" XPos="52" YPos="246" Width="51" Height="60" />
+	<Image Name="GoldNum2" XPos="104" YPos="246" Width="51" Height="60" />
+	<Image Name="GoldNum3" XPos="156" YPos="246" Width="51" Height="60" />
+	<Image Name="GoldNum4" XPos="208" YPos="246" Width="51" Height="60" />
+	<Image Name="GoldNum5" XPos="0" YPos="307" Width="51" Height="60" />
+	<Image Name="GoldNum6" XPos="52" YPos="307" Width="51" Height="60" />
+	<Image Name="GoldNum7" XPos="104" YPos="307" Width="51" Height="60" />
+	<Image Name="GoldNum8" XPos="156" YPos="307" Width="51" Height="60" />
+	<Image Name="GoldNum9" XPos="208" YPos="307" Width="51" Height="60" />
+	
+</Imageset>

@@ -1,0 +1,11 @@
+[LL_INFO]:[2015-05-20,16:21:23.857]:(sharememorythreadmgr.cpp:53:CShareMemoryThreadMgr::ProcessMessage):MSG_OPENSHAREMEMORY: C2S[TRUE] S2C[TRUE].
+[LL_INFO]:[2015-05-20,16:21:23.858]:(sharememorythreadmgr.cpp:54:CShareMemoryThreadMgr::ProcessMessage):VIDEO[TRUE]
+[LL_INFO]:[2015-05-20,16:21:23.858]:(sharememorythreadmgr.cpp:467:CShareMemoryThreadMgr::ReadShareMemory):player read cmd : CMD_DXPLAYER_MESSAGE
+[LL_INFO]:[2015-05-20,16:21:23.858]:(sharememorythreadmgr.cpp:467:CShareMemoryThreadMgr::ReadShareMemory):player read cmd : CMD_DXPLAYER_MESSAGE
+[LL_INFO]:[2015-05-20,16:21:23.858]:(sharememorythreadmgr.cpp:467:CShareMemoryThreadMgr::ReadShareMemory):player read cmd : CMD_DXPLAYER_MESSAGE
+[LL_INFO]:[2015-05-20,16:21:23.865]:(dx.cpp:273:CDXApp::InitInstance):main enter
+[LL_INFO]:[2015-05-20,16:21:34.319]:(sharememorythreadmgr.cpp:467:CShareMemoryThreadMgr::ReadShareMemory):player read cmd : CMD_DXPLAYER_MESSAGE
+[LL_WARN]:[2015-06-01,15:19:05.900]:(imgsetmgr.cpp:444:ImgsetMgr::initAllImagesets):load singer picture failed
+[LL_ERRO]:[2015-06-01,15:19:08.955]:(openglwindow.cpp:667:COpenGLWindow::ProcessMessage):create CLSID_Demultiplexer Failed
+[LL_WARN]:[2015-06-01,15:19:22.068]:(imgsetmgr.cpp:444:ImgsetMgr::initAllImagesets):load singer picture failed
+[LL_ERRO]:[2015-06-01,15:19:22.142]:(openglwindow.cpp:667:COpenGLWindow::ProcessMessage):create CLSID_Demultiplexer Failed

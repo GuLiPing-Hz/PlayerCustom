@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shop_gift_luxury>
+  <version property="229" />
+  <item>
+    <index>100015</index>
+    <picname>/gift_100015.png</picname>
+    <picUrl>http://res.xg.91555.com/res/file/giftPic2/gift_100015.png</picUrl>
+    <picMD5>D30AC05D45A0111DC10B7CDFD3C7BB77</picMD5>
+    <itemname>跑车</itemname>
+    <itemvalue>10000</itemvalue>
+    <luxurious>0</luxurious>
+    <Introduce>赠送给主持人</Introduce>
+    <unitname>辆</unitname>
+    <sort>1</sort>
+    <type>1</type>
+    <effect>0</effect>
+  </item>
+</shop_gift_luxury>

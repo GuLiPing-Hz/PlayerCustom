@@ -1,0 +1,219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DXdemoTestSM.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DXdemoTestSM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DXDEMOTESTSM_DIALOG DIALOGEX 0, 0, 590, 348
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "切歌",IDC_SWITCHSONG,209,14,50,14
+    PUSHBUTTON      "继续",IDC_PLAY_RESUME,210,27,49,14
+    PUSHBUTTON      "重唱(普)",IDC_RESING,207,45,49,14
+    PUSHBUTTON      "评分",IDC_GRADE,208,59,50,14
+    PUSHBUTTON      "伴奏",IDC_ACCOMPANY,260,59,39,14
+    LTEXT           "最后结果",IDC_STATIC_T,26,210,55,16
+    LTEXT           "score",STATIC_FINAL_SCORE,111,210,464,33
+    PUSHBUTTON      "关闭",IDC_CLOSE_PLAYER,493,7,49,14
+    LTEXT           "state",IDC_SONG_STATE,25,250,59,8
+    PUSHBUTTON      "静音",IDC_MUTE,259,73,40,14
+    PUSHBUTTON      "取消静音",IDC_MAX_VOLUME,209,73,47,14
+    PUSHBUTTON      "增加音量",IDC_ADD_VOLUME,259,87,40,14
+    PUSHBUTTON      "减少音量",IDC_SUB_VOLUME,209,85,47,14
+    PUSHBUTTON      "公告",IDC_PUBLIC_NOTIFY,393,86,44,14
+    EDITTEXT        IDC_MESSAGE,304,38,132,46,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "公告",IDC_STATIC_T,359,27,17,8
+    PUSHBUTTON      "火警",IDC_FIREWARNING,210,98,43,14
+    PUSHBUTTON      "重唱(评)",IDC_RESING2,263,45,36,14
+    EDITTEXT        IDC_STATIC_SONGLIST,7,162,195,48,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "鼓掌",IDC_BAPPLAUD,260,115,39,12
+    PUSHBUTTON      "喝彩",IDC_BCHEER,260,127,39,14
+    PUSHBUTTON      "下首歌曲",IDC_BNEXTSONG,530,86,43,14
+    LTEXT           "下首",IDC_STATIC_T,355,96,27,8
+    PUSHBUTTON      "暂停",IDC_BPLAY_PAUSE,261,27,36,14
+    LTEXT           "mac",IDC_STATIC_TMAC,103,249,113,9
+    PUSHBUTTON      "断网/联网",IDC_BONLINE,543,7,40,12
+    CONTROL         "是否对唱",IDC_CHECKAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,264,16,44,10
+    PUSHBUTTON      "弹幕",IDC_BBARRAGEMSG,388,159,50,14
+    EDITTEXT        IDC_ENEXTSONG,439,34,134,51,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "视频模拟",IDC_VIDEOIMITATE,260,101,39,14
+    EDITTEXT        IDC_EBMSG,307,107,129,48,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,7,194,133
+    CONTROL         "",IDC_PROGRESS,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,143,196,15
+    COMBOBOX        IDC_COMBCATEGORY,446,108,77,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "随机点歌",IDC_SELECTCATEGORY,525,107,50,14
+    PUSHBUTTON      "滚动",IDC_STARTROLL,453,125,50,14
+    PUSHBUTTON      "停止滚动",IDC_STOPROLL,515,124,50,14
+    CONTROL         "MV?",IDC_NOTMV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,311,16,29,10
+    CONTROL         "是否广告",IDC_ADVERTISMENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,339,16,48,10
+    COMBOBOX        IDC_EFFECT,209,113,48,65,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "星光视频",IDC_XGVIDEO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,443,16,48,10
+    PUSHBUTTON      "上榜通知",IDC_BSPECIAL,207,128,50,14
+    PUSHBUTTON      "更新金币",IDC_BUPDAGEMONEY,208,144,47,14
+    PUSHBUTTON      "兑换通知",IDC_BGIFTEXCHANGE,259,144,40,14
+    PUSHBUTTON      "送礼通知",IDC_BGIFTSEND,208,159,47,14
+    PUSHBUTTON      "门店榜更新",IDC_BSTUPDATE,256,158,50,14
+    PUSHBUTTON      "门店三甲",IDC_BSHOPTOP3,207,172,50,14
+    CONTROL         "debug 重唱",IDC_CHECK_DEBUG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,523,143,54,10
+    CONTROL         "跳片头片尾",IDC_CHECK_JUMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,386,16,56,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DXdemoTestSM.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "DXdemoTestSM.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DXDEMOTESTSM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 583
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 341
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NORMAL              BITMAP                  "res\\bitmap1.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DXdemoTestSM.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

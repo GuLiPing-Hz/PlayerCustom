@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="systemwrappers">
+      <UniqueIdentifier>{d83b62c3-103b-4145-a29b-ecf1f4f20f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filelog">
+      <UniqueIdentifier>{e18b95c4-2a13-452c-84c2-ce37faa0cc1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\clock.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\condition_variable_event_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\condition_variable_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\constructor_magic.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\critical_section_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\critical_section_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\data_log.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\data_log_c.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\data_log_impl.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\event_tracer.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\event_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\event_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\file_impl.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\file_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\fix_interlocked_exchange_pointer_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\logging.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\rw_lock_generic.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\rw_lock_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\scoped_ptr.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\scoped_refptr.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\set_thread_name_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\sleep.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\static_instance.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\thread_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\thread_wrapper.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\tick_util.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\trace.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\trace_event.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\trace_impl.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\trace_win.h">
+      <Filter>systemwrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="filelog\loghelp.h">
+      <Filter>filelog</Filter>
+    </ClInclude>
+    <ClInclude Include="filelog\logwrapper.h">
+      <Filter>filelog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="system_wrappers\clock.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\condition_variable.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\condition_variable_event_win.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\critical_section.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\critical_section_win.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\data_log.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\data_log_c.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\event.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\event_tracer.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\event_win.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\file_impl.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\logging.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\rw_lock.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\rw_lock_generic.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\sleep.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\thread.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\thread_win.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\tick_util.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\trace_impl.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\trace_win.cc">
+      <Filter>systemwrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="filelog\loghelp.cc">
+      <Filter>filelog</Filter>
+    </ClCompile>
+    <ClCompile Include="filelog\logwrapper.cc">
+      <Filter>filelog</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

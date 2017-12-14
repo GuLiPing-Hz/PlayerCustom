@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="renderer" Imagefile="renderer.png" NativeHorzRes="2048" NativeVertRes="2048" >
+	<!--位置定义-->
+	
+	<!--评分图片-->
+	<Image Name="ScoreIconA" XPos="0" YPos="19" Width="74" Height="55" />
+	<Image Name="ScoreIconB" XPos="75" YPos="19" Width="74" Height="55" />
+	<Image Name="ScoreBG" XPos="82" YPos="0" Width="208" Height="18" />
+	<!--分数数字图片-->
+	<Image Name="ScoreNum0" XPos="701" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum1" XPos="732" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum2" XPos="763" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum3" XPos="794" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum4" XPos="825" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum5" XPos="856" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum6" XPos="887" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum7" XPos="918" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum8" XPos="949" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNum9" XPos="980" YPos="188" Width="30" Height="27" />
+	<Image Name="ScoreNumDot" XPos="1011" YPos="188" Width="10" Height="27" />
+
+	<!--wave图片-->
+	<Image Name="SongLineAL" XPos="0" YPos="0" Width="7" Height="16" />
+	<Image Name="SongLineAM" XPos="7" YPos="0" Width="26" Height="16" />
+	<Image Name="SongLineAR" XPos="33" YPos="0" Width="7" Height="16" />
+	<Image Name="SongLineBL" XPos="41" YPos="0" Width="7" Height="16" />
+	<Image Name="SongLineBM" XPos="48" YPos="0" Width="26" Height="16" />
+	<Image Name="SongLineBR" XPos="74" YPos="0" Width="7" Height="16" />
+	<Image Name="SongLinePointA" XPos="0" YPos="75" Width="65" Height="65" />
+	<Image Name="SongLinePointB" XPos="66" YPos="75" Width="65" Height="65" />
+	<!--wave套准图片-->
+	<Image Name="SongLineOK" XPos="132" YPos="75" Width="84" Height="85" />
+	<!--wave箭头-->
+	<Image Name="SongLineArrowA" XPos="701" YPos="216" Width="86" Height="81" />
+	<Image Name="SongLineArrowB" XPos="701" YPos="298" Width="86" Height="81" />
+	<Image Name="SongLineArrowOK" XPos="788" YPos="216" Width="86" Height="81" />
+	<!--wave背景扩展环图片-->
+	<Image Name="SongEffect1A" XPos="438" YPos="403" Width="254" Height="254" />
+	<Image Name="SongEffect1B" XPos="693" YPos="403" Width="254" Height="254" />
+	<!--wave背景扩展光图片-->
+	<Image Name="SongEffect2A" XPos="0" YPos="2001" Width="534" Height="17" />
+	<Image Name="SongEffect2B" XPos="0" YPos="2019" Width="534" Height="17" />
+	<!--wave背景图片-->
+	<Image Name="SongLineBgL" XPos="0" YPos="272" Width="252" Height="130" />
+	<Image Name="SongLineBgM" XPos="252" YPos="272" Width="196" Height="130" />
+	<Image Name="SongLineBgR" XPos="448" YPos="272" Width="252" Height="130" />
+	<!--wave游标图片-->
+	<Image Name="SongLineDivideTop" XPos="270" YPos="19" Width="3" Height="130" />
+	<Image Name="SongLineDivideA" XPos="291" YPos="0" Width="297" Height="187" />
+	<Image Name="SongLineDivideB" XPos="589" YPos="0" Width="297" Height="187" />
+	<!--句尾线-->
+	<Image Name="SongLineEndLine" XPos="285" YPos="19" Width="5" Height="130" />
+	<!--曲谱线-->
+	<Image Name="SongLineWaveLine" XPos="274" YPos="19" Width="10" Height="130" />
+	<!--星星图片-->
+	<Image Name="StarIcon" XPos="150" YPos="19" Width="49" Height="49" />
+	<!--连击combo图片-->
+	<Image Name="StarLineL" XPos="200" YPos="61" Width="2" Height="4" />
+	<Image Name="StarLineM" XPos="202" YPos="61" Width="36" Height="4" />
+	<Image Name="StarLineR" XPos="238" YPos="61" Width="2" Height="4" />
+	<Image Name="StarLinePoint" XPos="200" YPos="19" Width="41" Height="41" />
+	<!--wave框架图片-->
+	<Image Name="StarLineBgAL" XPos="0" YPos="188" Width="286" Height="41" />
+	<Image Name="StarLineBgAM" XPos="286" YPos="188" Width="128" Height="41" />
+	<Image Name="StarLineBgAR" XPos="414" YPos="188" Width="286" Height="41" />
+	<Image Name="StarLineBgBL" XPos="0" YPos="230" Width="286" Height="41" />
+	<Image Name="StarLineBgBM" XPos="286" YPos="230" Width="128" Height="41" />
+	<Image Name="StarLineBgBR" XPos="414" YPos="230" Width="286" Height="41" />
+
+	<!--连击combo数字-->
+	<Image Name="StarNum0" XPos="0" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum1" XPos="19" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum2" XPos="38" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum3" XPos="57" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum4" XPos="76" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum5" XPos="95" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum6" XPos="114" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum7" XPos="133" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum8" XPos="152" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNum9" XPos="171" YPos="168" Width="18" Height="19" />
+	<Image Name="StarNumPlus" XPos="190" YPos="168" Width="18" Height="19" />
+
+	<!--句评分数字-->
+	<Image Name="SentenceNum0" XPos="834" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum1" XPos="863" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum2" XPos="892" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum3" XPos="921" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum4" XPos="950" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum5" XPos="979" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum6" XPos="1008" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum7" XPos="1037" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum8" XPos="1066" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNum9" XPos="1095" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNumFen" XPos="1124" YPos="1854" Width="28" Height="32" />
+	<Image Name="SentenceNumDot" XPos="1153" YPos="1854" Width="7" Height="32" />
+
+
+	<!--评分等级图片-->
+	<Image Name="Good" XPos="269" YPos="575" Width="168" Height="85" />
+	<Image Name="Cool" XPos="269" YPos="489" Width="168" Height="85" />
+	<Image Name="Great" XPos="0" YPos="489" Width="268" Height="85" />
+	<Image Name="Perfect" XPos="0" YPos="403" Width="268" Height="85" />
+
+	<!--评分结果背景图片-->
+	<Image Name="ScoreframeBG" XPos="0" YPos="661" Width="1500" Height="720" />
+
+	<!--评分背景-->
+	<Image Name="Scoreframe" XPos="1501" YPos="661" Width="287" Height="720" />
+	<!--曲目横线-->
+	<Image Name="HLine" XPos="0" YPos="1382" Width="852" Height="1" />
+	<Image Name="HLineS" XPos="853" YPos="1382" Width="410" Height="1" />
+
+	<!--总分、连唱文字-->
+	<Image Name="TextScore" XPos="1359" YPos="1384" Width="48" Height="25" />
+	<Image Name="TextCombo" XPos="1408" YPos="1384" Width="48" Height="25" />
+	<Image Name="TextCongratulations" XPos="1457" YPos="1384" Width="113" Height="30" />
+	<!--Combo环-->
+	<Image Name="ComboRing" XPos="948" YPos="448" Width="209" Height="209" />
+	<!--星体名称闪-->
+	<Image Name="FlashMask" XPos="271" YPos="1898" Width="280" Height="102" />
+	<!--星体背景粒子-->
+	<Image Name="ParticleBG" XPos="258" YPos="150" Width="32" Height="32" />
+	<Image Name="ParticleBG2" XPos="225" YPos="150" Width="32" Height="32" />
+
+	<!--星体名称-->
+	<Image Name="StarName0" XPos="0" YPos="1384" Width="115" Height="72" />
+	<Image Name="StarName1" XPos="116" YPos="1384" Width="170" Height="72" />
+	<Image Name="StarName2" XPos="287" YPos="1384" Width="193" Height="72" />
+	<Image Name="StarName3" XPos="481" YPos="1384" Width="143" Height="72" />
+	<Image Name="StarName4" XPos="625" YPos="1384" Width="105" Height="72" />
+	<Image Name="StarName5" XPos="731" YPos="1384" Width="257" Height="72" />
+	<Image Name="StarName6" XPos="989" YPos="1384" Width="144" Height="72" />
+	<Image Name="StarName7" XPos="1134" YPos="1384" Width="224" Height="72" />
+	<!--星体图片-->
+	<Image Name="StarPic0" XPos="271" YPos="1720" Width="121" Height="138" />
+	<Image Name="StarPic1" XPos="0" YPos="1457" Width="364" Height="262" />
+	<Image Name="StarPic2" XPos="1230" YPos="1761" Width="442" Height="119" />
+	<Image Name="StarPic3" XPos="834" YPos="1457" Width="395" Height="396" />
+	<Image Name="StarPic4" XPos="0" YPos="1720" Width="270" Height="270" />
+	<Image Name="StarPic5" XPos="393" YPos="1457" Width="440" Height="440" />
+	<Image Name="StarPic6" XPos="1230" YPos="1457" Width="489" Height="303" />
+
+	<!--状态提示 静音，原伴唱，暂停，音效-->
+	<Image Name="Notify0" XPos="1155" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify1" XPos="1155" YPos="164" Width="132" Height="163" />
+	<Image Name="Notify2" XPos="1288 " YPos="0" Width="132" Height="163" />
+	<Image Name="Notify3" XPos="1288" YPos="164" Width="132" Height="163" />
+	<Image Name="Notify4" XPos="1022" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify5" XPos="1022" YPos="164" Width="132" Height="163" />
+	<!--评分状态提示-->
+	<Image Name="Notify6" XPos="891" YPos="288" Width="130" Height="35" />
+	<Image Name="Notify7" XPos="891" YPos="216" Width="130" Height="35" />
+	<Image Name="Notify8" XPos="891" YPos="252" Width="130" Height="35" />
+	<Image Name="Notify9" XPos="816" YPos="324" Width="130" Height="35" />
+	<!-- 音效 -->
+	<Image Name="Notify10" XPos="1421" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify11" XPos="1554" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify12" XPos="1687" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify13" XPos="1820" YPos="0" Width="132" Height="163" />
+	<Image Name="Notify14" XPos="1421" YPos="164" Width="132" Height="163" />
+	<Image Name="Notify15" XPos="1554" YPos="164" Width="132" Height="163" />
+	<Image Name="Notify16" XPos="1687" YPos="164" Width="132" Height="163" />
+	<Image Name="Notify17" XPos="1820" YPos="164" Width="132" Height="163" />
+
+	<!--音量提示-->
+	<Image Name="MicVolumeBkg" XPos="1158" YPos="462" Width="526" Height="97" />
+	<Image Name="ToneBkg" XPos="1158" YPos="560" Width="526" Height="97" />
+	<Image Name="MusicVolumeBkg" XPos="948" YPos="328" Width="526" Height="97" />
+	<Image Name="Shedule" XPos="1158" YPos="451" Width="300" Height="10" />
+	<Image Name="Nagetive" XPos="1318" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber0" XPos="1158" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber1" XPos="1174" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber2" XPos="1190" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber3" XPos="1206" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber4" XPos="1222" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber5" XPos="1238" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber6" XPos="1254" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber7" XPos="1270" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber8" XPos="1286" YPos="426" Width="15" Height="22" />
+	<Image Name="NotifyNumber9" XPos="1302" YPos="426" Width="15" Height="22" />
+
+	<!--歌曲信息-->
+	<Image Name="SongInfoBkg" XPos="1788" YPos="661" Width="239" Height="183" />
+	<Image Name="SongInfoBkg2" XPos="552" YPos="1898" Width="378" Height="105" />
+	
+	<!--线上视频-->
+	<Image Name="VideoBorder" XPos="1708" YPos="420" Width="320" Height="240" />
+
+	<!--上榜通知-->
+	<Image Name="RankStar" XPos="1475" YPos="328" Width="89" Height="91" />
+	<Image Name="RankBanner" XPos="1565" YPos="328" Width="461" Height="37" />
+
+	<!--金币奖励-->
+	<Image Name="GoldBagParticle" XPos="931" YPos="1887" Width="120" Height="120" />
+	<!--Image Name="GoldBag" XPos="1789" YPos="845" Width="259" Height="245" />	
+	<Image Name="GoldNum0" XPos="1052" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum1" XPos="1104" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum2" XPos="1156" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum3" XPos="1208" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum4" XPos="1260" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum5" XPos="1312" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum6" XPos="1364" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum7" XPos="1416" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum8" XPos="1468" YPos="1887" Width="51" Height="60" />
+	<Image Name="GoldNum9" XPos="1520" YPos="1887" Width="51" Height="60" /-->
+
+	<!--歌词演唱提示-->
+	<Image Name="LyricScoreNotify" XPos="535" YPos="2008" Width="494" Height="38" />
+
+	<!--气泡-->
+	<Image Name="BubbleL" XPos="1571" YPos="1384" Width="22" Height="60" />
+	<Image Name="BubbleM" XPos="1593" YPos="1384" Width="7" Height="60" />
+	<Image Name="BubbleR" XPos="1600" YPos="1384" Width="11" Height="60" />
+
+	<!--每日门店榜-->
+	<Image Name="DailyRankingPic" XPos="1789" YPos="845" Width="154" Height="82" />
+	<Image Name="DailyRankingBG1L" XPos="1612" YPos="1384" Width="12" Height="44" />
+	<Image Name="DailyRankingBG1M" XPos="1624" YPos="1384" Width="6" Height="44" />
+	<Image Name="DailyRankingBG1R" XPos="1630" YPos="1384" Width="12" Height="44" />
+	<Image Name="DailyRankingBG2" XPos="1789" YPos="928" Width="190" Height="110" />
+	
+</Imageset>

@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="timer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{c5687c62-4bff-4769-aae8-21099ae1f12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{7a107610-c4a7-45c7-81eb-abbca57555f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{3409609b-df77-4b33-9942-c8d4c6d332d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fto">
+      <UniqueIdentifier>{045bb843-bafd-4bd9-aa95-233ee3f11fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="staff">
+      <UniqueIdentifier>{706154df-dde2-488b-8d7f-0695a8d8d9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="staff\image">
+      <UniqueIdentifier>{b52b2b1c-03ee-42c5-bed8-10296409ebd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="staff\object">
+      <UniqueIdentifier>{ccd73fd8-d1f8-41a6-91f2-ea5abf512777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="staff\render">
+      <UniqueIdentifier>{6dd909b2-5c33-4192-a141-acbfb31fb135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wave">
+      <UniqueIdentifier>{194ce1af-1d0a-4cdb-a216-39110becd49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{3d5be8d1-3983-42fc-a019-25ca9573ad36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particlesystem">
+      <UniqueIdentifier>{30b3f899-c281-4cbf-b68a-a569bd6a6e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{5b770d3d-9f88-4890-a4fd-82ff7faa41f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{82f474d7-4067-4fdc-b704-9101e8685aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="florid">
+      <UniqueIdentifier>{9ee13c2b-7be4-4bb6-b925-f7e4428e9bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video">
+      <UniqueIdentifier>{8cea98dd-7da5-456a-af7e-89b6ea6428e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="progress">
+      <UniqueIdentifier>{0ad1c61e-a379-4268-993c-633f74760004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{d30a3f13-0eac-4be9-bb9b-a3273f9eb5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{f836e28e-da32-4862-a508-34f5be0d3e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ximage">
+      <UniqueIdentifier>{93ba4568-5ecd-4e8b-9e7d-18e1e64afe07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="png">
+      <UniqueIdentifier>{c72ac6ae-78b9-4bdf-b514-5dbb42408c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effect">
+      <UniqueIdentifier>{5d517c01-eb20-45f3-9ecd-6e0f1ad84b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{e35e6c37-c2f2-475e-abdf-511f8dd5e9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swf">
+      <UniqueIdentifier>{c1ee2a0b-96a6-43c1-9880-dc682b4d0d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jpeg">
+      <UniqueIdentifier>{a2538d7c-e45b-41ed-8c18-7c46d575113b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="exception">
+      <UniqueIdentifier>{ec28f8f1-cc94-4479-913f-64d9b803e74a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEx.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Opengl.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="processstat.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\ListDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DX\Grapha.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DX\RenderEngine.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DX\vmrutil.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="font\font.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\GifSprite.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\Imageset.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\ImgsetEx.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\imgsetmgr.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\OS_LineDraw.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\image\RenderEImage.cpp">
+      <Filter>staff\image</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\ObjectFir.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\ObjectNotify.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\ObjectSing.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\ObjectStatistics.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\ObjectVideo.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\object\SceneMgr.cpp">
+      <Filter>staff\object</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\LyricRender.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\OS_HeadMessage.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\OS_NotifyMessage.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\ScoreFrame.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\SentenceRender.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\TopNotifyRender.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\VSingerRender.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="staff\render\WaveRender.cpp">
+      <Filter>staff\render</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\MixerDev.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\Wave.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\WaveBuffer.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\WaveDevice.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\WaveIn.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\WaveOut.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\WaveUnit.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinystr.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxml.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxmlerror.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxmlparser.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\hgecolor.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\hgeparticlesys.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\hgerect.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\hgesprite.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\hgevector.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystem\ParticleUpdate.cpp">
+      <Filter>particlesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawListener.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="DX.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLWindow.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="florid\FloridMgr.cpp">
+      <Filter>florid</Filter>
+    </ClCompile>
+    <ClCompile Include="florid\GLFlorid.cpp">
+      <Filter>florid</Filter>
+    </ClCompile>
+    <ClCompile Include="GLBlackCurtain.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="GLVideo.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPage.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="progress\ShareMemory.cpp">
+      <Filter>progress</Filter>
+    </ClCompile>
+    <ClCompile Include="progress\ShareMemoryThreadMgr.cpp">
+      <Filter>progress</Filter>
+    </ClCompile>
+    <ClCompile Include="progress\ThreadMgr.cpp">
+      <Filter>progress</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\sound.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\soundmgr.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\tif_xfile.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximabmp.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximadsp.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaenc.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaexif.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximage.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximagif.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximahist.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaico.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximainfo.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaint.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximajas.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximajbg.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximajpg.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximalpha.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximalyr.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximamng.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximapal.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximapcx.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximapng.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximapsd.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaraw.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximasel.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximaska.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximatga.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximath.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximatif.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximatran.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximawmf.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\ximawnd.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage\xmemfile.cpp">
+      <Filter>ximage</Filter>
+    </ClCompile>
+    <ClCompile Include="png\png.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngerror.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngget.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngmem.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngpread.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngread.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngrio.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngrtran.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngrutil.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngset.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngtrans.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngwio.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngwrite.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngwtran.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="png\pngwutil.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\Alpha.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\AnimaNumber.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="file\FileUtil.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="swf\Swf.cpp">
+      <Filter>swf</Filter>
+    </ClCompile>
+    <ClCompile Include="swf\SwfMgr.cpp">
+      <Filter>swf</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\CPlayerException.cpp">
+      <Filter>exception</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Timer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEx.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDef.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="GLListDef.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Opengl.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="processstat.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\ListDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\Grapha.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\iaudioswitch.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\RenderEngine.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\uguid.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\util.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\vmrutil.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="font\font.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="fto\eval.h">
+      <Filter>fto</Filter>
+    </ClInclude>
+    <ClInclude Include="fto\ftotype.h">
+      <Filter>fto</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\KKType.h">
+      <Filter>staff</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\RenderConfig.h">
+      <Filter>staff</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\GifSprite.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\imageset.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\ImgsetEx.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\ImgsetMgr.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\OS_LineDraw.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\image\RenderEImage.h">
+      <Filter>staff\image</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ISceneObject.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectDef.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectFir.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectNotify.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectSing.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectStatistics.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\ObjectVideo.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\object\SceneMgr.h">
+      <Filter>staff\object</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\IComRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\LyricRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\OS_HeadMessage.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\OS_NotifyMessage.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\ScoreFrame.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\SentenceRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\TopNotifyRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\VSingerRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="staff\render\WaveRender.h">
+      <Filter>staff\render</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\DataStructure.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\MixerDev.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\Wave.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\WaveBuffer.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\WaveDevice.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\WaveIn.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\WaveOut.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\WaveUnit.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinystr.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinyxml.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgecolor.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgedef.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgeparticlesys.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgerect.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgesprite.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\hgevector.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystem\ParticleInfo.h">
+      <Filter>particlesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawListener.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="DX.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWindow.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="florid\FloridMgr.h">
+      <Filter>florid</Filter>
+    </ClInclude>
+    <ClInclude Include="florid\GLFlorid.h">
+      <Filter>florid</Filter>
+    </ClInclude>
+    <ClInclude Include="GLBlackCurtain.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="GLVideo.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPage.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\processcommunicate.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\ShareMemory.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\ShareMemoryThreadMgr.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\smdatadef.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\ThreadMgr.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="progress\Wmcopydata.h">
+      <Filter>progress</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\soundmgr.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LogSystem\filelog\loghelp.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\stdint.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\xfile.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximabmp.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximacfg.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximadef.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximage.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximagif.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximaico.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximaiter.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximajas.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximajbg.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximajpg.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximamng.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximapcx.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximapng.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximapsd.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximaraw.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximaska.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximatga.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximath.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximatif.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\ximawmf.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\xiofile.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage\xmemfile.h">
+      <Filter>ximage</Filter>
+    </ClInclude>
+    <ClInclude Include="png\png.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pngconf.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pngdebug.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pnginfo.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pnglibconf.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pngpriv.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="png\pngstruct.h">
+      <Filter>png</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\Alpha.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\AnimaNumber.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="file\FileUtil.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="swf\compatibility_include.h">
+      <Filter>swf</Filter>
+    </ClInclude>
+    <ClInclude Include="swf\ISwfListener.h">
+      <Filter>swf</Filter>
+    </ClInclude>
+    <ClInclude Include="swf\Swf.h">
+      <Filter>swf</Filter>
+    </ClInclude>
+    <ClInclude Include="swf\SwfMgr.h">
+      <Filter>swf</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg\jconfig.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg\jerror.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg\jmorecfg.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg\jpeglib.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\CPlayerException.h">
+      <Filter>exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DX.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DX.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

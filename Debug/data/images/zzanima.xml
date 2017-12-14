@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="fireworks" Imagefile="zzanima.png" NativeHorzRes="1024" NativeVertRes="1024" >
+	<!--位置定义-->
+	<Image Name="Applaud0" YPos="201" XPos="201" Width="200" Height="200" />
+	<Image Name="Applaud1" YPos="201" XPos="402" Width="200" Height="200" />
+	<Image Name="Applaud2" YPos="201" XPos="603" Width="200" Height="200" />
+	<Image Name="Applaud3" YPos="201" XPos="201" Width="200" Height="200" />
+	<Image Name="Applaud4" YPos="201" XPos="402" Width="200" Height="200" />
+	<Image Name="Applaud5" YPos="201" XPos="603" Width="200" Height="200" />
+	<Image Name="Cheer0" YPos="0" XPos="0" Width="200" Height="200" />
+	<Image Name="Cheer1" YPos="0" XPos="201" Width="200" Height="200" />
+	<Image Name="Cheer2" YPos="0" XPos="402" Width="200" Height="200" />
+	<Image Name="Cheer3" YPos="0" XPos="603" Width="200" Height="200" />
+	<Image Name="Cheer4" YPos="0" XPos="804" Width="200" Height="200" />
+	<Image Name="Cheer5" YPos="201" XPos="0" Width="200" Height="200" />
+
+	<!--线上视频-->
+	<Image Name="FontBg" XPos="10" YPos="409" Width="128" Height="42" />
+	
+</Imageset>

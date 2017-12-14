@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Renderer" Imagefile="Renderer2.png" NativeHorzRes="2048" NativeVertRes="2048" >
+	<!--大背景图片-->
+	<Image Name="bg" XPos="0" YPos="0" Width="1280" Height="720" />
+	<!--歌曲选择背景-->
+	<Image Name="box" XPos="0" YPos="721" Width="912" Height="512" />
+
+	<!--hoveron图片-->
+	<Image Name="select" XPos="0" YPos="1234" Width="630" Height="84" />
+</Imageset>
